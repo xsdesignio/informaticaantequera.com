@@ -1253,8 +1253,11 @@ ul li {
 		width: 94%;
 	}
 
+    .whatsapp-icon {
+        inset: auto 20px 40px auto;
+    }
     .whatsapp-text {
-        inset: auto 20px 80px auto;
+        inset: auto 20px 100px auto;
     }
 
 
