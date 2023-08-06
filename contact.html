@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacta con nosotros | Update Informática</title>
+
+        <meta name="description" content="Contacta con nuestro equipo de expertos Informáticos.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Fonts -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville">
+        
+    </head>
+    <body>
+
+        <main>
+            <form action="https://formsubmit.co/ff504add07c0e72b633fc8feeb88ec6b" method="POST" class="auth-form contact-form animate">
+                <!-- svelte-ignore a11y-click-events-have-key-events -->
+                <!-- svelte-ignore a11y-missing-attribute -->
+                <!-- svelte-ignore a11y-no-static-element-interactions -->
+                <a class="return-link" onClick="backToLastPage()">
+                    <img class="text-icon vertical-flip" src="assets/icons/right-arrow.png" alt="" srcset="assets/icons/right-arrow.png">
+                    Volver
+                </a>
+                
+                
+                <a class="logo-container" href="/">
+                    <img class="logo-image" src="assets/LogoInformaticaAntequera.jpg" alt="">
+                </a>
+            
+                <h3 class="gradient-text">Resuelve cualquier duda que tengas acerca de nuestros productos o servicios</h3>
+                <h3>Envíanos tu consulta:</h3>
+                    
+                <label for="email">Nombre</label>
+                <input type="text" name="email" id="email">
+                    
+                <label for="empresa">Empresa</label>
+                <input type="text" name="empresa" id="empresa">
+            
+                <label for="email">Correo electrónico</label>
+                <input type="email" name="email" id="email">
+                    
+                <label for="message">Mensaje</label>
+                <textarea name="message" cols="30" rows="10"></textarea>
+                    
+                <button class="default-button auth-button" type="submit"><b>Enviar </b></button>
+                <span>Gracias por contactar con Update Informática. Te responderemos lo antes posible.</span>
+            </form>
+
+            <script src="./js/contact.js"></script>
+        </main>
+
+
+    </body>
+</html>

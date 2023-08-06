@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Servicios informáticos en Antequera </title>
+
+        <meta name="description" content="Todo tipo de serivicios informáticos para cubrir todas tus necesitades digitales. Softwares de pago y gestión, instalación de sistemas de seguridad, creación de páginas web, reparación de dispositivos...">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header.css">
+
+        <!-- Fonts -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville">
+        
+    </head>
+    <body>
+        <header id="header">
+            <div class="header-content">
+                
+                <a class="logo-container" href="index.html">
+                    <img class="logo-image" src="assets/LogoInformaticaAntequera.jpg" alt="">
+                </a>
+
+          
+                <nav class="links-list" id="header-menu">
+                    <a class="link" href='index.html'>
+                        <span>Home</span>
+                    </a>
+                    <a class="link selected" href='services.html'>
+                        <span>Servicios</span>
+                    </a>
+                    <a class="link" href='https://www.beep.es'>
+                        <span>Productos</span>
+                    </a>
+                </nav>
+                <div class="button-container">
+                    <a class="default-button" href="contact.html">Contacta con nosotros</a>
+                </div>
+        
+                <!-- Menú Móvil -->
+                <!-- Menú Móvil -->
+                <button class="mobile-button" type="button" onclick="toggleMenu()">
+                    <img id="mobile-open-button" class="open-icon" src="./assets/icons/menu.svg" alt="" srcset="./assets/icons/menu.svg">
+                    <img id="mobile-close-button" class="close-icon" src="./assets/icons/cross.svg" alt="" srcset="./assets/icons/cross.svg">
+                </button>
+        
+            </div>
+        </header>
+
+        <section class="hero-services animate">
+            <div class="hero-services-content">
+                <h1 class="hero-services-title">
+                    Descubre Nuestros Servicios de Informática
+                </h1>
+                <p class="hero-services-description">
+                    Ofrecemos todo tipo de servicios informáticos dentro de Antequera. Con más de 15 años de experiencia en darte las soluciones específicas que necesitas.
+                </p>
+                <a href="./contact.html" class="default-button hero-services-button">
+                    Recibir Asesoramiento
+                </a>
+        
+            </div>
+            <img class="web-img" src="assets/images/webdevelopment.webp" srcset="assets/images/webdevelopment.webp" alt="">
+            
+        </section>
+
+        <main> 
+
+            <section class="services-section animate" id="services-section">
+                <!-- Import the js code from ./js/services.js -->
+                
+                <h2>Descubre algunos de los servicios que tenemos para tí.</h2>
+                <div class="filter">
+                    <h3>¿Qué necesitas?</h3>
+                    <div class="selector">
+
+                        <button class="default-button" onclick="selectCompanyServices()">
+                            Servicios para empresas
+                        </button>
+                        <button class="default-button" onclick="selectIndividualServices()">
+                            Servicios para particulares
+                        </button>
+                        <button class="default-button" onclick="selectAll()">
+                            Todos los servicios
+                        </button>
+                    </div>
+                </div>
+                <div class="services" id="services">
+                    <script src="./js/services.js"></script>
+                </div>
+            </section>
+
+        </main>
+
+        <Footer class="footer">
+            <div>
+        
+                <span>
+                    @Update Informática Empresas © 2022
+                </span>
+                
+                <a class="logo-container" href="index.html">
+                    <img class="logo-image" src="assets/LogoInformaticaAntequera.jpg" alt="">
+                </a>
+        
+            </div>
+            <div>
+                <p>
+                    <strong>DIRECCIÓN: </strong>
+                    C/ Carrera de Madre Carmen, 53 - 1º - 29200 Antequera (Málaga)
+                </p>
+                <p>
+                    <strong>TELÉFONOS: </strong>
+                    952701362 (Particulares)
+                    673361630 (Empresas)
+                </p>
+                <p>
+                    <strong>HORARIO: </strong>
+                    LUNES A VIERNES: 9:00 A 14:00 Y 16:30 A 20:30 SABADOS: 10:00 A 13:30
+                   
+                </p>
+            </div>
+        </Footer>
+
+
+        <!-- Whatsapp Icon -->
+        <a class="whatsapp-icon" href="wa:">
+            <img src="./assets/icons/whatsapp.png" alt="">
+        </a>
+        <p class="whatsapp-text">
+            <strong>
+                ¡Envíanos tu mensaje! Estamos a tu disposición. 😃
+            </strong>
+        </p>
+
+
+        <script src="./js/mobile.js"></script>
+        
+    </body>
+</html>
