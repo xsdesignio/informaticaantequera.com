@@ -1067,6 +1067,9 @@ ul li {
 
 @media screen and (max-width: 850px) {
 
+    .hero-title {
+        font-size: 2.5em;
+    }
 
     .service-banner {
         padding: 40px 10px;
