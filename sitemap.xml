@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- Página de inicio -->
+    <url>
+        <loc>https://www.informaticaantequera.com/index.html</loc>
+        <priority>1.0</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <!-- Páginas de servicios -->
+    <url>
+        <loc>https://www.informaticaantequera.com/services.html</loc>
+        <priority>0.9</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://www.informaticaantequera.com/services/web-pages.html</loc>
+        <priority>0.8</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://www.informaticaantequera.com/services/apple-repairing.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://www.informaticaantequera.com/services/automatic-cash-register.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://www.informaticaantequera.com/services/business-management-software.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://www.informaticaantequera.com/services/cibersecurity.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://www.informaticaantequera.com/services/computer-maintenance.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://www.informaticaantequera.com/services/console-repairing.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://www.informaticaantequera.com/services/data-recovery.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    
+    <url>
+        <loc>https://www.informaticaantequera.com/services/expert-reports.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://www.informaticaantequera.com/services/mobile-repairing.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    
+    <url>
+        <loc>https://www.informaticaantequera.com/services/network-installation.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://www.informaticaantequera.com/services/outsourcing.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    
+    <url>
+        <loc>https://www.informaticaantequera.com/services/parental-control.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://www.informaticaantequera.com/services/security-copies.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    
+    <url>
+        <loc>https://www.informaticaantequera.com/services/server-installing.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://www.informaticaantequera.com/services/software-for-restaurants.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    
+    <url>
+        <loc>https://www.informaticaantequera.com/services/technical-service.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+    <url>
+        <loc>https://www.informaticaantequera.com/services/tpv-for-commerce.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    
+    <url>
+        <loc>https://www.informaticaantequera.com/services/video-surveillance.html</loc>
+        <priority>0.7</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+
+</urlset>
