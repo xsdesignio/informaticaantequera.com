@@ -1067,6 +1067,7 @@ ul li {
 
 @media screen and (max-width: 850px) {
 
+
     .hero-title {
         font-size: 2.5em;
     }
@@ -1098,8 +1099,9 @@ ul li {
     }
 
     .full-width-section {
-        padding: 60px 16px;
+        padding: 60px 10px;
         gap: 40px;
+        max-width: 100vw;
     }
     .full-width-section .info {
         padding: 16px;
