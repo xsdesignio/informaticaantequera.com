@@ -30,7 +30,7 @@ let services = [
         type: "company",
     },
     {
-        name: "Paginas Web.",
+        name: "Páginas Web.",
         description: "Le ofrecemos servicios especializados en consultoría y diseño de páginas web. Todo lo necesario para empresas y profesionales que deseen iniciar o renovar su presencia en internet.",
         url: "services/web-pages.html",
         iconUrl: "assets/icons/services/15.png",
