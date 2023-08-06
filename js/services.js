@@ -38,7 +38,7 @@ let services = [
     },
     {
         name: "Instalaciones de Red.",
-        description: "Si dispone de varios ordenadores y dispositivos informáticos, podemos configurarlos en rede para que pueda compartir información entre ellos.",
+        description: "Si dispone de varios ordenadores y dispositivos informáticos, podemos configurarlos en redes para que pueda compartir información entre ellos.",
         url: "services/network-installation.html",
         iconUrl: "assets/icons/services/12.png",
         type: "company",
