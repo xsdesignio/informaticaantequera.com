@@ -1253,6 +1253,10 @@ ul li {
 		width: 94%;
 	}
 
+    .whatsapp-text {
+        inset: auto 20px 80px auto;
+    }
+
 
     .two-columns-grid {
         grid-template-columns: 1fr;
@@ -1261,6 +1265,10 @@ ul li {
     .three-columns-grid {
         grid-template-columns: 1fr;
         place-items: center;
+    }
+
+    .informational {
+        padding: 0;
     }
 
 }
