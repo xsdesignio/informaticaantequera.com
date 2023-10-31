@@ -31,6 +31,7 @@ document.getElementById("contact-form").addEventListener("submit", (event) => {
         if (response.ok) {
           alert("El formulario ha sido enviado correctamente. Gracias por confiar en nosotros.");
         } else {
+            console.log(response)
             throw new Error("Error sending form data");
         }
       })
